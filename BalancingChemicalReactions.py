@@ -11,11 +11,11 @@ st.title("Balancing Checmical Reactions")
 st.image('images//Balancing_ChemicalReactions.jpeg', width=700)
 
 st.write("please input your reactants without coefficients, this is case sensitive")
-st.write("your input should look like: H2O+Ag3(Fe3O)4")
+st.write("your input should look like: H2SO4+NaOH")
 reactants=st.text_input("Reactants: ")
 
 st.write("please input your products without coefficients, this is case sensitive")
-st.write("your input should look like: H2O+CO2")
+st.write("your input should look like:  → Na2SO4+H2O")
 st.write("NOTE: do not enter any partially-balalced chemical equations")
 products=st.text_input("Products: ")
 if st.button("Balance"):
