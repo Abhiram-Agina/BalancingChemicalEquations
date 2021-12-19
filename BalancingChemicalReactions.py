@@ -10,11 +10,11 @@ elementMatrix=[]
 st.title("Balancing Checmical Reactions")
 st.image('images//Balancing_ChemicalReactions.jpeg', width=700)
 
-st.write("please input your reactants, this is case sensitive")
+st.write("please input your reactants without coefficients, this is case sensitive")
 st.write("your input should look like: H2O+Ag3(Fe3O)4")
 reactants=st.text_input("Reactants: ")
 
-st.write("please input your products, this is case sensitive")
+st.write("please input your products without coefficients, this is case sensitive")
 st.write("your input should look like: H2O+CO2")
 st.write("NOTE: do not enter any partially-balalced chemical equations")
 products=st.text_input("Products: ")
