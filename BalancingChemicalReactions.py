@@ -8,7 +8,7 @@ elementMatrix=[]
 # Reference: https://chemequations.com/en/
 
 st.title("Balancing Checmical Reactions")
-st.image('images\Balancing_ChemicalReactions.jpeg', width=700)
+st.image('images//Balancing_ChemicalReactions.jpeg', width=700)
 
 st.write("please input your reactants, this is case sensitive")
 st.write("your input should look like: H2O+Ag3(Fe3O)4")
